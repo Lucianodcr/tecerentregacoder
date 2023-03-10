@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Rubik&display=swap');
+
+
+
+
+
+
+/* COLOR #4149c5 #5758d8 #f59354 #faab6b #ffc482 #90b5d9 #aac8e3 #c3daec #ffffff  #4c608a (color nuevo)*/
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  background-color:#fafafa;
+}
+
+/* TAMAÑO LOGO */
+
+/* FIN TAMAÑO LOGO */
+
+
+/* NAVEGADOR */
+.navclr{
+  background-color: #fafafa;
+  border-bottom: #4149c5   solid 3px;
+}
+
+
+
+.listanav{
+  font-size: 1.3rem;
+  font-weight: bold;
+text-decoration: none;
+color: #4149c5 ;
+}
+
+.listanav:hover{
+  text-decoration: underline  #ffc482 ;
+ }
+/* FIN NAVEGADOR */
+
+/* CAROUSEL */
+.carou{
+  height: 350px;
+  object-fit: cover;
+}
+
+/* Section 1 */
+.tamicon{
+  height: 80px;
+}
+/* Fin Section 1 */
+
+/* Inicio Footer */
+/* texto de subtitulo CONTACTANOS - SEGUINOS */
+.footcol{
+  color: #4149c5   ;
+}
+
+.footbor{
+  background-color: #fafafa ;
+  border-top: #4149c5 solid 3px;
+  padding-top: 1.5rem;
+
+}
+
+/* Fin Footer */
+
+
+
+/* TARIFAS */
+/* SECTION1 */
+
+.cardflex{
+  display: flex;
+
+}
