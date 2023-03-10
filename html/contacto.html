@@ -15,7 +15,7 @@
 
 <body>
     <!-- HEADER -->
-    <nav class="navbar navbar-expand-lg navclr p-3">
+    <nav class="navbar navbar-expand-lg navclr p-3 mb-5">
 
         <div class="container-fluid d-flex  justify-content-center">
             <a href="../index.html">
@@ -49,64 +49,156 @@
     <!-- FIN HEADER -->
 
 
+    <!--Contacto-->
+    <section class=" bg-gray ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-6">
+                    <!-- Titulo -->
+                    <div class="section-heading text-center">
+                        <h2>Contactanos</h2>
+                        <p class="d-none d-sm-block mt-4"> </p>
 
-
-
-
-<!-- INICIO DE FOOTER -->
-<footer>
-    <div class="footbor">    
-        <div class="row">
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div>
-                    <!-- Logo-->
-                    <a class="navbar-brand d-flex justify-content-center mt-5 mb-5" href="#">
-                        <h3 class=" border border-5 rounded-pill">Logo</h3>
-                    </a>
+                    </div>
                 </div>
             </div>
+            <div class="row justify-content-between">
+                <div class="col-12 col-md-5">
+                    <!-- Contactanos -->
+                    <div>
 
+                        <ul>
+                            <li class="py-2">
+                                <a href="#">
+                                    <div>
 
+                                    </div>
+                                    <span class="align-self-center">direccion</span>
+                                </a>
+                            </li>
+                            <li class="py-2">
+                                <a href="#">
+                                    <div>
 
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div>
-                    <!-- Footer Titulo -->
-                    <h3 class="d-flex justify-content-center container-fluid footcol">Contactanos</h3>
-                    <ul class="ms-auto text-center">
-                        <li class="d-flex justify-content-center">WhatsApp "phone"</li>
-                        <li class="d-flex justify-content-center">Email@gmail.com</li>
-                        <li class="d-flex justify-content-center">Av. Rivadavia 2584, Ciudad Aut. de Buenos Aires -
-                            Argentina</li>
-                    </ul>
+                                    </div>
+                                    <span>+56464654646</span>
+                                </a>
+                            </li>
+                            <li class="py-2">
+                                <a href="#">
+                                    <div>
+
+                                    </div>
+                                    <span class="align-self-center">mail</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 pt-4 pt-md-0">
+
+                    <div class="contact-box text-center">
+
+                        <form method="POST" action="contacto.php">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div>
+                                        <input type="text" class="form-control" name="nombre" placeholder="Nombre"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" placeholder="Email"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="telefono" placeholder="Telefono"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="mensaje" placeholder="Mensaje"
+                                            required></textarea>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-lg btn-block mt-3 border-primary bg-primary"><span
+                                        class="text-white pr-3 "></span>Enviar</button>
+                            </div>
+
+                    </div>
+
+                    </form>
+
                 </div>
             </div>
+        </div>
+        </div>
+    </section>
+    <!--Contacto fin-->
 
 
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div>
-                    <!-- Footer Titulo -->
-                    <h3 class="d-flex justify-content-center container-fluid footcol">Seguinos</h3>
-                    <!-- Botones Redes -->
-                    <di3>
-                        <!-- Redes Sociales -->
 
-                        <a class="d-flex justify-content-center container-fluid" href="https://www.instagram.com/dlklogistic/" target="_blank">Instagram </a>
+
+    <!-- INICIO DE FOOTER -->
+    <footer class="mt-5">
+        <div class="footbor">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div>
+                        <!-- Logo-->
+                        <a class="navbar-brand d-flex justify-content-center mt-5 mb-5" href="#">
+                            <h3 class=" border border-5 rounded-pill">Logo</h3>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div>
+                        <!-- Footer Titulo -->
+                        <h3 class="d-flex justify-content-center container-fluid footcol">Contactanos</h3>
+                        <ul class="ms-auto text-center">
+                            <li class="d-flex justify-content-center">WhatsApp "phone"</li>
+                            <li class="d-flex justify-content-center">Email@gmail.com</li>
+                            <li class="d-flex justify-content-center">Av. Rivadavia 2584, Ciudad Aut. de Buenos Aires -
+                                Argentina</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div>
+                        <!-- Footer Titulo -->
+                        <h3 class="d-flex justify-content-center container-fluid footcol">Seguinos</h3>
+                        <!-- Botones Redes -->
+                        <di3>
+                            <!-- Redes Sociales -->
+
+                            <a class="d-flex justify-content-center container-fluid"
+                                href="https://www.instagram.com/dlklogistic/" target="_blank">Instagram </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
 
-</footer>
+    </footer>
 
     <!-- copyright Footer -->
     <div class="d-flex justify-content-center">
-        <h6 class="d-flex justify-content-center container-fluid mt-4">Copyright © 2023 Todos los derechos reservados | Desarrollado por Lycan</h6>
+        <h6 class="d-flex justify-content-center container-fluid mt-4">Copyright © 2023 Todos los derechos reservados |
+            Desarrollado por Lycan</h6>
     </div>
 
-<!-- Footer Final -->
+    <!-- Footer Final -->
 
-
+    <!-- SCRIPT BOOTSTRPAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
 
 </body>

@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Rubik&display=swap');
 
 
-
-
-
-
 /* COLOR #4149c5 #5758d8 #f59354 #faab6b #ffc482 #90b5d9 #aac8e3 #c3daec #ffffff  #4c608a (color nuevo)*/
 body {
   font-family: 'Poppins', sans-serif;
@@ -43,11 +39,10 @@ color: #4149c5 ;
   object-fit: cover;
 }
 
-/* Section 1 */
 .tamicon{
-  height: 80px;
+  height: 90px;
+  margin-bottom: 1.5rem;
 }
-/* Fin Section 1 */
 
 /* Inicio Footer */
 /* texto de subtitulo CONTACTANOS - SEGUINOS */
@@ -73,3 +68,48 @@ color: #4149c5 ;
   display: flex;
 
 }
+
+/*TARIFAS */
+
+.lineaTexto{
+  border-top: 1px solid #bebebe;
+  padding-top: 1.5rem;
+  
+}
+
+.fondoCordon2{
+  background-color: #4149c5;
+  color: #fafafa;
+}
+
+.fondoCordon1{
+  background-color:  #90b5d9;
+  color: #fafafa;
+}
+
+.fondoCaba{
+  background-color: #9c9894 ;
+  color: #fafafa;
+}
+
+.colorPrecio1{
+  color: #9c9894;
+  font-size: 3rem;
+}
+.colorPrecio2{
+  color: #90b5d9;
+  font-size: 3rem;
+}
+.colorPrecio3{
+  color: #4149c5;
+  font-size: 3rem;
+}
+
+h2{
+  text-decoration: underline;
+  color: #90b5d9;
+  font-size: 2.5rem;
+}
+
+
+/* FIN TARIFAS */
