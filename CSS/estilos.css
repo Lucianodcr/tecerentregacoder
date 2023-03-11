@@ -4,14 +4,14 @@ body {
   font-family: "Poppins", sans-serif;
   font-family: "Rubik", sans-serif;
   background-color: white;
-  background-image: url(/img/background2.jpg);
+  background-image: url(../img/background2.jpg);
   width: 100%;
 }
 
 /*FUENTES*/ /*HEADER*/
 .navclr {
   border-bottom: white solid 3px;
-  background-image: url(/img/backgroundNav.jpg);
+  background-image: url(../img/backgroundNav.jpg);
   width: 100%;
 }
 
@@ -115,7 +115,7 @@ h2 {
 }
 
 .footbor {
-  background-image: url(/img/backgroundNav.jpg);
+  background-image: url(../img/backgroundNav.jpg);
   width: 100%;
   border-top: #ffffff solid 3px;
   padding-top: 1.5rem;
