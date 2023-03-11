@@ -1,115 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Rubik&display=swap');
-
-
-/* COLOR #4149c5 #5758d8 #f59354 #faab6b #ffc482 #90b5d9 #aac8e3 #c3daec #ffffff  #4c608a (color nuevo)*/
+/*BODY*/
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Rubik&display=swap";
 body {
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Rubik', sans-serif;
-  background-color:#fafafa;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  background-color: white;
+  background-image: url(/img/background2.jpg);
+  width: 100%;
 }
 
-/* TAMAÑO LOGO */
-
-/* FIN TAMAÑO LOGO */
-
-
-/* NAVEGADOR */
-.navclr{
-  background-color: #fafafa;
-  border-bottom: #4149c5   solid 3px;
+/*FUENTES*/ /*HEADER*/
+.navclr {
+  border-bottom: white solid 3px;
+  background-image: url(/img/backgroundNav.jpg);
+  width: 100%;
 }
 
-
-
-.listanav{
+.listanav {
   font-size: 1.3rem;
   font-weight: bold;
-text-decoration: none;
-color: #4149c5 ;
+  text-decoration: none;
+  color: white;
+}
+.listanav:hover {
+  text-decoration: underline white;
 }
 
-.listanav:hover{
-  text-decoration: underline  #ffc482 ;
- }
-/* FIN NAVEGADOR */
-
-/* CAROUSEL */
-.carou{
+/*CAROUSEL*/
+.carou {
   height: 350px;
   object-fit: cover;
 }
 
-.tamicon{
-  height: 90px;
-  margin-bottom: 1.5rem;
+h2 {
+  color: rgb(37, 36, 36);
+  font-size: 2.5rem;
 }
 
-/* Inicio Footer */
-/* texto de subtitulo CONTACTANOS - SEGUINOS */
-.footcol{
-  color: #4149c5   ;
-}
-
-.footbor{
-  background-color: #fafafa ;
-  border-top: #4149c5 solid 3px;
-  padding-top: 1.5rem;
-
-}
-
-/* Fin Footer */
-
-
-
-/* TARIFAS */
-/* SECTION1 */
-
-.cardflex{
-  display: flex;
-
-}
-
-/*TARIFAS */
-
-.lineaTexto{
-  border-top: 1px solid #bebebe;
-  padding-top: 1.5rem;
-  
-}
-
-.fondoCordon2{
+.fondoCordon2 {
   background-color: #4149c5;
   color: #fafafa;
 }
 
-.fondoCordon1{
-  background-color:  #90b5d9;
+.fondoCordon1 {
+  background-color: #90b5d9;
   color: #fafafa;
 }
 
-.fondoCaba{
-  background-color: #9c9894 ;
+.fondoCaba {
+  background-color: #9c9894;
   color: #fafafa;
 }
 
-.colorPrecio1{
+.colorPrecio1 {
   color: #9c9894;
   font-size: 3rem;
 }
-.colorPrecio2{
+
+.colorPrecio2 {
   color: #90b5d9;
   font-size: 3rem;
 }
-.colorPrecio3{
+
+.colorPrecio3 {
   color: #4149c5;
   font-size: 3rem;
 }
 
-h2{
-  text-decoration: underline;
-  color: #90b5d9;
-  font-size: 2.5rem;
+.cardflex {
+  display: flex;
+  justify-content: center;
 }
 
+.lineaTexto {
+  border-top: 1px solid #bebebe;
+  padding-top: 1.5rem;
+}
 
-/* FIN TARIFAS */
+/*BOTONES*/
+.botEnviar {
+  background-color: #861da7;
+  color: white;
+}
+.botEnviar:hover {
+  border: white 2px solid;
+  background-color: #f752cd;
+  color: black;
+}
+
+.botonPreg {
+  font-size: 1.5rem;
+  background-color: #861da7;
+  color: white;
+}
+.botonPreg:hover {
+  border: white 2px solid;
+  background-color: #f752cd;
+  color: black;
+}
+
+/*ICONOS*/
+.tamicon {
+  height: 200px;
+  margin-bottom: 1.5rem;
+}
+
+.tamIconServ {
+  height: 200px;
+  margin-bottom: 1.5rem;
+}
+
+/*FOOTER*/
+.footcol {
+  color: rgb(255, 255, 255);
+}
+
+.footbor {
+  background-image: url(/img/backgroundNav.jpg);
+  width: 100%;
+  border-top: #ffffff solid 3px;
+  padding-top: 1.5rem;
+}
+
+/*MIXIN*/
+.estiloBotones {
+  font-size: 1.5rem;
+  background-color: #861da7;
+  color: white;
+}
+.estiloBotones:hover {
+  border: white 2px solid;
+  background-color: #f752cd;
+  color: black;
+}
+
+/*# sourceMappingURL=estilos.css.map */

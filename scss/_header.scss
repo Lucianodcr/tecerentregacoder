@@ -1,0 +1,17 @@
+/*HEADER*/
+
+
+.navclr {
+	border-bottom: white solid 3px;
+	background-image: url(/img/backgroundNav.jpg);
+	width: 100%;
+}
+.listanav {
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: $color_1;
+	&:hover {
+		text-decoration: underline white;
+	}
+}
